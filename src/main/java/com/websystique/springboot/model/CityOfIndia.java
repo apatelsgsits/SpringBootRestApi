@@ -5,7 +5,7 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 public class CityOfIndia {
 
 	@JsonProperty(value = "City")
-	private String city;
+	private String City;
 	@JsonProperty(value = "Temperature")
 	private String Temperature;
 	@JsonProperty(value = "Humidity")
@@ -18,10 +18,10 @@ public class CityOfIndia {
 	private String WindDirectionDegree;
 	
 	public String getCity() {
-		return city;
+		return City;
 	}
 	public void setCity(String City) {
-		this.city = City;
+		this.City = City;
 	}
 	public String getTemperature() {
 		return Temperature;
@@ -56,7 +56,7 @@ public class CityOfIndia {
 
 	@Override
 	public String toString() {
-		return "CityOfIndia [City=" + city + ", Temperature=" + Temperature + ", Humidity=" + Humidity
+		return "CityOfIndia [City=" + City + ", Temperature=" + Temperature + ", Humidity=" + Humidity
 				+ ", WeatherDescription=" + WeatherDescription + ", WindSpeed=" + WindSpeed + ", WindDirectionDegree="
 				+ WindDirectionDegree + "]";
 	}
